@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background-color: #dcdcdc;
+	font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+section.abn-content-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+section.abn-content-wrapper aside {
+    background-color: #333333;
+    width: 410px;
+    position: relative;
+    padding: 0 0 88px 88px;
+    overflow: hidden;
+}
+
+section.abn-content-wrapper aside:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #666666;
+    top: 0;
+    left: 87px;
+}
+
+section.abn-content-wrapper aside:after {
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background: #f2ab00;
+    top: -136px;
+    right: 44px;
+    transform: rotate(133deg);
+}
+
+.abn-profile-img-wrapper {
+    width: 288px;
+    height: 288px;
+    border-radius: 50% 50% 50% 0;
+    border: 5px solid #FFFFFF;
+    background-color: #aaaaaa;
+    margin-top: 120px;
+    margin-left: 24px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.abn-profile-img-wrapper img {
+    max-width: 288px;
+    max-height: 288px;
+    border-radius: 50% 50% 50% 0;
+}
+
+.abn-widget {
+	position: relative;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+.abn-widget:after {
+	content: "";
+	position: absolute;
+	width: 80%;
+	height: 2px;
+	border-bottom: 2px dashed;
+	left: 25px;
+	bottom: 0;
+}
+
+.abn-widget:last-child {
+    margin: 0;
+}
+
+.abn-widget:last-child:after {
+    border: none;
+}
+
+h5.abn-widget-title {
+	position: relative;
+	font-size: 35px;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	padding-left: 25px;
+	margin-bottom: 40px;
+}
+
+h5.abn-widget-title:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: calc(100% + 8px);
+    background: #f2ab00;
+    border-radius: 15px;
+    top: -4px;
+    left: -7px;
+}
+
+h5.abn-widget-title i {
+	margin-right: 14px;
+}
+
+.abn-widget-content {
+	position: relative;
+}
+
+.abn-icon-text {
+    position: relative;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.abn-icon-text:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #f2ab00;
+    border-radius: 15px;
+    top: 50%;
+    left: -7px;
+    transform: translate(0px, -7px);
+}
+
+.abn-widget-icon {
+    color: #333333;
+    font-size: 16px;
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 12px;
+}
+
+.abn-icon-text:last-child {
+	margin: 0;
+}
+
+.abn-widget-icon i {}
+
+.abn-widget-text {}
+
+.abn-widget-text span {
+    display: block;
+    font-size: 20px;
+	font-family: "Raleway", sans-serif;
+}
+
+.abn-only-text {
+    margin-bottom: 25px;
+}
+
+.abn-widget-content:last-child .abn-only-text {
+    margin: 0;
+}
+
+.abn-only-text h3 {
+    position: relative;
+    padding-left: 25px;
+}
+
+.abn-only-text h3:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #f2ab00;
+    border-radius: 15px;
+    top: 50%;
+    left: -7px;
+    transform: translate(0px, -7px);
+}
+
+.abn-only-text p {
+    padding-left: 25px;
+}
+
+/* main section */
+section.abn-content-wrapper main {
+    background-color: #FFFFFF;
+    width: calc(100% - 498px);
+}
