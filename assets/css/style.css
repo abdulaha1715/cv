@@ -1,14 +1,14 @@
 body {
-	margin: 0;
-	padding: 0;
-	color: #FFFFFF;
-	background-color: #dcdcdc;
-	font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #dcdcdc;
+    font-family: "Raleway", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 section.abn-content-wrapper {
@@ -66,19 +66,19 @@ section.abn-content-wrapper aside:after {
 }
 
 .abn-widget {
-	position: relative;
-	margin-bottom: 50px;
-	padding-bottom: 50px;
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .abn-widget:after {
-	content: "";
-	position: absolute;
-	width: 80%;
-	height: 2px;
-	border-bottom: 2px dashed;
-	left: 25px;
-	bottom: 0;
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    border-bottom: 2px dashed;
+    left: 25px;
+    bottom: 0;
 }
 
 .abn-widget:last-child {
@@ -90,12 +90,14 @@ section.abn-content-wrapper aside:after {
 }
 
 h5.abn-widget-title {
-	position: relative;
-	font-size: 35px;
-	font-family: "Raleway", sans-serif;
-	text-transform: uppercase;
-	padding-left: 25px;
-	margin-bottom: 40px;
+    position: relative;
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    padding-left: 25px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
 }
 
 h5.abn-widget-title:before {
@@ -110,11 +112,19 @@ h5.abn-widget-title:before {
 }
 
 h5.abn-widget-title i {
-	margin-right: 14px;
+    margin-right: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+    background: #FFFFFF;
+    font-size: 21px;
+    border-radius: 50%;
 }
 
 .abn-widget-content {
-	position: relative;
+    position: relative;
 }
 
 .abn-icon-text {
@@ -150,7 +160,7 @@ h5.abn-widget-title i {
 }
 
 .abn-icon-text:last-child {
-	margin: 0;
+    margin: 0;
 }
 
 .abn-widget-icon i {}
@@ -160,11 +170,11 @@ h5.abn-widget-title i {
 .abn-widget-text span {
     display: block;
     font-size: 20px;
-	font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .abn-only-text {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .abn-widget-content:last-child .abn-only-text {
@@ -172,8 +182,11 @@ h5.abn-widget-title i {
 }
 
 .abn-only-text h3 {
+    font-size: 23px;
     position: relative;
     padding-left: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .abn-only-text h3:before {
@@ -190,10 +203,200 @@ h5.abn-widget-title i {
 
 .abn-only-text p {
     padding-left: 25px;
+    line-height: 28px;
 }
 
 /* main section */
 section.abn-content-wrapper main {
     background-color: #FFFFFF;
     width: calc(100% - 498px);
+    position: relative;
+    overflow: hidden;
 }
+
+section.abn-content-wrapper main:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #4d4d4d;
+    top: 0;
+    left: 70px;
+    z-index: 1;
+}
+
+section.abn-content-wrapper main:after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #f2ab00;
+    bottom: -15%;
+    right: -205px;
+    transform: rotate(45deg);
+}
+
+section.abn-name-designation {
+    margin-top: 155px;
+    padding: 65px 0 65px 115px;
+    position: relative;
+    background: #efefef;
+}
+
+section.abn-name-designation:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 150px;
+    background: #f2ab00;
+    border-radius: 15px;
+    top: 40px;
+    left: 64px;
+    z-index: 2;
+}
+
+h2.abn-profile-name {
+    color: #333333;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+span.abn-p-last-name {
+    color: #f2ab02;
+}
+
+p.abn-designation {
+    color: #4b4b4b;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+section.abn-section-content-wrap {
+    padding: 0 84px 0 115px;
+    margin-top: 95px;
+}
+
+.abn-about-me {}
+
+.abn-about-me p {
+    line-height: 34px;
+}
+
+h5.abn-section-title {
+    position: relative;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+h5.abn-section-title:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: calc(100% + 8px);
+    background: #f2ab00;
+    border-radius: 15px;
+    top: -4px;
+    left: -51px;
+    z-index: 1;
+}
+
+h5.abn-section-title i {
+    color: #333333;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    background: #f2ab00;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 12px;
+}
+
+.abn-section-content {}
+
+.abn-section-text {
+    margin-bottom: 35px;
+}
+
+.abn-section-text p {
+    color: #333333;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h3.abn-job-title-time {
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+h3.abn-job-title-time:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #f2ab00;
+    border-radius: 15px;
+    top: 50%;
+    left: -51px;
+    transform: translate(0px, -7px);
+    z-index: 1;
+}
+
+span.abn-job-title {
+    font-size: 23px;
+}
+
+span.abn-job-time {
+    font-size: 20px;
+}
+
+p.abn-job-location {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.abn-section-content:last-child .abn-section-text {
+    margin: 0;
+}
+
+.abn-skills-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+}
+
+.abn-user-skill {
+    display: flex;
+    width: 48%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abn-user-skill h4 {
+    color: #333333;
+}
+
+span.abn-skill-line {
+    width: 125px;
+    height: 5px;
+    background: #CCCCCC;
+    border-radius: 5px;
+}
+
+span.abn-skill-percentage {
+    display: block;
+    height: 5px;
+    background: #f2ab00;
+    border-radius: 5px;
+}
+
+
