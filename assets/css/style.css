@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+}
+
+body.abn-cv-one {
     background-color: #dcdcdc;
     font-family: "Raleway", sans-serif;
 }
@@ -276,10 +279,12 @@ section.abn-section-content-wrap {
     margin-top: 95px;
 }
 
-.abn-about-me {}
+.abn-about-me {
+    padding-top: 115px;
+}
 
 .abn-about-me p {
-    line-height: 34px;
+    line-height: 32px;
 }
 
 h5.abn-section-title {
@@ -399,4 +404,328 @@ span.abn-skill-percentage {
     border-radius: 5px;
 }
 
+
+/* ==============
+    CV Two style
+================ */
+
+body.abn-cv-two {
+    background-color: #dcdcdc;
+    font-family: "Raleway", sans-serif;
+}
+
+section.abn-cvt-content-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #333333;
+    background-color: #fffeff;
+    display: flex;
+}
+
+section.abn-cvt-content-wrapper aside {
+    max-width: 450px;
+    margin-left: 95px;
+    background: #efefef;
+}
+
+.abn-cvt-aside-top {
+}
+
+.abn-cvt-name-designation {
+    color: #FFFFFF;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 115px;
+}
+
+h2.abn-cvt-profile-name {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+span.abn-cvt-p-last-name {}
+
+p.abn-cvt-designation {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.abn-cvt-profile-img-wrapper {
+    background-color: #333333;
+    text-align: center;
+    padding: 35px 25px 30px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 0 0 50% 50%;
+}
+
+.abn-cvt-profile-img-wrapper img {
+    width: 380px;
+    height: 380px;
+    border: 10px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.abn-cvt-aside-middle {
+    margin: 35px 0;
+}
+
+.abn-cvt-widget {
+    padding-left: 85px;
+}
+
+h5.abn-cvt-widget-title {
+    position: relative;
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h5.abn-cvt-widget-title i {
+    margin-right: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #333333;
+    background: #FFFFFF;
+    font-size: 21px;
+    border-radius: 50%;
+}
+
+.abn-cvt-aside-middle h5.abn-cvt-widget-title i {
+    color: #FFFFFF;
+    background: #333333;
+}
+
+.abn-cvt-widget-content {
+}
+
+.abn-cvt-icon-text {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.abn-cvt-icon-text:last-child {
+    margin: 0;
+}
+
+.abn-cvt-widget-icon {
+    margin-right: 10px;
+}
+
+.abn-cvt-widget-icon i {}
+
+.abn-cvt-widget-text {}
+
+.abn-cvt-widget-text span {}
+
+.abn-cvt-aside-bottom {
+    color: #FFFFFF;
+    background: #333333;
+    margin: 0 25px;
+}
+
+.abn-cvt-aside-bottom .abn-cvt-widget:first-child {position: relative;z-index: 9;background: #efefef;}
+
+.abn-cvt-aside-bottom .abn-cvt-widget {
+    padding-left: 60px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 10;
+    background-color: #333333;
+}
+
+.abn-cvt-aside-bottom .abn-cvt-widget:last-child {
+    margin-bottom: 0;
+}
+
+.abn-cvt-aside-bottom .abn-cvt-widget:first-child:before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50% 50% 0 0;
+    left: 0;
+    top: 0;
+    background: #333333;
+    z-index: -1;
+}
+
+.abn-cvt-aside-bottom .abn-cvt-widget:first-child h5 {
+    padding-top: 114px;
+}
+
+.abn-cvt-aside-bottom .abn-cvt-widget:last-child {
+    padding-bottom: 120px;
+}
+
+.abn-cvt-only-text {
+    margin-bottom: 30px;
+}
+
+.abn-cvt-only-text h3 {
+    font-size: 23px;
+    position: relative;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.abn-cvt-only-text p {
+    line-height: 24px;
+}
+
+
+section.abn-cvt-section-content-wrap {
+    padding-left: 90px;
+    padding-right: 100px;
+    margin-bottom: 110px;
+}
+
+section.abn-cvt-section-content-wrap:last-child {
+    margin-bottom: 0;
+}
+
+h5.abn-cvt-section-title {
+    position: relative;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+h5.abn-cvt-section-title i {
+    color: #FFFFFF;
+    font-size: 21px;
+    width: 50px;
+    height: 50px;
+    background: #333333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 12px;
+}
+
+.abn-cvt-section-content {}
+
+.abn-cvt-section-text {
+    margin-bottom: 40px;
+}
+
+.abn-cvt-section-text p {
+    color: #333333;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h3.abn-cvt-job-title-time {
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+span.abn-cvt-job-title {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+span.abn-cvt-job-time {
+    font-size: 20px;
+}
+
+p.abn-cvt-job-location {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 18px;
+}
+
+.abn-cvt-section-content:last-child .abn-cvt-section-text {
+    margin: 0;
+}
+
+.abn-cvt-skills-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+}
+
+.abn-cvt-user-skill {
+    display: flex;
+    width: 47%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abn-cvt-user-skill h4 {
+    color: #333333;
+    width: 70%;
+}
+
+span.abn-cvt-skill-line {
+    width: 125px;
+    height: 5px;
+    background: #CCCCCC;
+    border-radius: 5px;
+}
+
+span.abn-cvt-skill-percentage {
+    display: block;
+    height: 5px;
+    background: #333333;
+    border-radius: 5px;
+}
+
+.abn-lang-hobby {
+    display: flex;
+}
+
+section.abn-cvt-user-lang {
+    width: 64%;
+}
+
+.abn-lang-set {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0;
+}
+
+.abn-lang-set span {
+    position: relative;
+    width: 40%;
+    padding-left: 15px;
+}
+
+.abn-hobby-set {}
+
+.abn-hobby-set span {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.abn-lang-set span,
+.abn-hobby-set span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.abn-lang-set span i,
+.abn-hobby-set span i {
+    font-size: 10px;
+    padding-right: 8px;
+}
 
