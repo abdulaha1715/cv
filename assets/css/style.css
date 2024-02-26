@@ -729,3 +729,384 @@ section.abn-cvt-user-lang {
     padding-right: 8px;
 }
 
+
+/* ==============
+    CV Three style
+================ */
+
+
+
+body.abn-cv-three {
+    color: #333333;
+    background: #DDDDDD;
+    font-family: "Raleway", sans-serif;
+}
+
+section.abn-cv-three-content-wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+section.abn-cv-three-content-wrapper aside {
+    width: 540px !important;
+    color: #FFFFFF;
+    background-color: #29333a;
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.abn-cv-three-img-name-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.abn-cv-three-name-designation {
+    position: absolute;
+    width: 82%;
+    height: 440px;
+    top: 0;
+    left: 0;
+    text-align: right;
+    z-index: 18;
+    transform: rotate(-90deg);
+}
+
+h2.abn-cv-three-profile-name {
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+span.abn-cv-three-p-last-name {}
+
+p.abn-cv-three-designation {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.abn-cv-three-profile-img-wrapper {
+    width: 362px;
+    height: 420px;
+    border: 10px solid #FFFFFF;
+    border-right: none;
+    margin-left: 168px;
+}
+
+.abn-cv-three-profile-img-wrapper img {
+    min-width: 362px;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.abn-cv-three-section-content-wrap {
+    margin-top: 80px;
+    margin-right: 85px;
+}
+
+.abn-cv-three-about-me {}
+
+h5.abn-cv-three-section-title {
+    position: relative;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+h5.abn-cv-three-section-title i {
+    color: #333333;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background: #36c4db;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 25px;
+}
+
+.abn-cv-three-section-content {}
+
+.abn-cv-three-section-text {}
+
+.abn-cv-three-section-text p {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+aside .abn-cv-three-widget {
+    margin-top: 80px;
+}
+
+.abn-cv-three-widget {
+    position: relative;
+}
+
+aside h5.abn-cv-three-widget-title {
+    color: #FFFFFF;
+}
+
+h5.abn-cv-three-widget-title {
+    position: relative;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+h5.abn-cv-three-widget-title i {
+    color: #333333;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    background: #36c4db;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 25px;
+}
+
+.abn-cv-three-widget:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #36c4db;
+    top: 0;
+    left: 23px;
+}
+
+.abn-cv-three-widget-content {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.abn-cv-three-only-text {
+}
+
+.abn-cv-three-only-text h3 {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 75px;
+}
+
+.abn-cv-three-only-text h3:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #36c4db;
+    border-radius: 50%;
+    top: 6px;
+    left: 14px;
+    margin: 0;
+    border: 3px solid #333333;
+}
+
+.abn-cv-three-only-text p {
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 75px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.abn-cv-three-only-text span {
+    color: #36c4db;
+    font-size: 20px;
+    padding-left: 75px;
+}
+
+.abn-cv-three-widget-content:last-child {
+    margin-bottom: 0;
+}
+
+.abn-cv-three-widget-content:last-child span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.abn-cv-three-skills-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    justify-content: space-between;
+}
+
+.abn-cv-three-user-skill {
+    display: flex;
+    width: 46%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abn-cv-three-user-skill h4 {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+span.abn-cv-three-skill-line {
+    min-width: 110px;
+    height: 5px;
+    background: #728086;
+    border-radius: 5px;
+}
+
+span.abn-cv-three-skill-percentage {
+    display: block;
+    height: 5px;
+    background: #36c4dc;
+    border-radius: 5px;
+}
+
+section.abn-cv-three-content-wrapper {}
+
+main {
+    background: #FFFFFF;
+    padding: 130px 100px 100px 85px;
+}
+
+.abn-cv-three-widget {
+    padding-bottom: 4px;
+}
+
+.abn-cv-three-icon-text {
+    display: flex;
+    padding-left: 75px;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.abn-cv-three-icon-text:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #36c4db;
+    border-radius: 50%;
+    top: 10px;
+    left: 14px;
+    margin: 0;
+    border: 3px solid #FFFFFF;
+}
+
+.abn-cv-three-widget-icon {}
+
+.abn-cv-three-widget-icon i {
+    color: #333333;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    background: #36c4db;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 12px;
+}
+
+.abn-cv-three-widget-text {}
+
+.abn-cv-three-widget-text span {
+    margin: 0 !important;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+main section.abn-cv-three-section-content-wrap {
+    margin-right: 0;
+}
+
+main h5.abn-cv-three-section-title {
+    color: #333333;
+}
+
+.abn-cv-three-job-exp {
+    position: relative;
+    margin-bottom: 80px;
+    padding-bottom: 5px;
+}
+
+.abn-cv-three-job-exp:before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #36c4db;
+    top: 0;
+    left: 23px;
+}
+
+.abn-cv-three-job-exp .abn-cv-three-section-content {
+    margin-bottom: 40px;
+}
+
+.abn-cv-three-section-text {}
+
+h3.abn-cv-three-job-title-time {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 75px;
+}
+
+h3.abn-cv-three-job-title-time:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #36c4db;
+    border-radius: 50%;
+    top: 6px;
+    left: 14px;
+    margin: 0;
+    border: 3px solid #FFFFFF;
+}
+
+span.abn-cv-three-job-title {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+span.abn-cv-three-job-time {
+    color: #36c4db;
+    font-size: 20px;
+}
+
+p.abn-cv-three-job-location {
+    font-size: 20px;
+    padding-left: 75px;
+}
+
+.abn-cv-three-job-exp p {
+    font-size: 18px;
+    padding-left: 75px;
+    margin: 5px 0 15px 0;
+    text-align: left;
+    line-height: 29px;
+}
+
+main .abn-cv-three-only-text h3:before {
+    border-color: #ffffff;
+}
+
+main .abn-cv-three-widget-content {
+    margin-bottom: 40px;
+}
+
+.abn-cv-three-job-exp .abn-cv-three-section-content:last-child {
+    margin-bottom: 0;
+}
+
+
