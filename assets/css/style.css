@@ -1110,3 +1110,486 @@ main .abn-cv-three-widget-content {
 }
 
 
+
+/* ==============
+    CV Four style
+================ */
+
+body.abn-cv-four {
+    color: #333333;
+    background: #DDDDDD;
+    font-family: "Poppins", sans-serif;
+}
+
+section.abn-cv-four-content-wrapper {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+section.abn-cv-four-content-wrapper:before {
+    content: "";
+    position: absolute;
+    width: 510px;
+    height: 50px;
+    background: #27939a;
+    top: 0;
+    left: 0;
+}
+
+section.abn-cv-four-content-wrapper:after {
+    content: "";
+    position: absolute;
+    width: 840px;
+    height: 50px;
+    background: #27939a;
+    left: 0;
+    bottom: 0;
+}
+
+section.abn-cv-four-content-wrapper > span {
+    position: absolute;
+    width: 50px;
+    height: 844px;
+    background: #27939a;
+    top: 0;
+    right: 0;
+}
+
+.abn-cv-four-img-name {
+    padding: 80px 0 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abn-cv-four-profile-img-wrapper {}
+
+.abn-cv-four-profile-img-wrapper img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid #28939a;
+}
+
+.abn-cv-four-name-designation {
+    width: 820px;
+}
+
+.abn-cv-four-name-designation-wrap {
+    margin-top: 65px;
+    padding: 45px 90px;
+    background-color: #e9f3f3;
+}
+
+h2.abn-cv-four-profile-name {
+    color: #484848;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}
+
+span.abn-cv-four-p-last-name {
+    font-weight: 300;
+}
+
+p.abn-cv-four-designation {
+    font-size: 21px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+h2.abn-cv-four-profile-name:before,
+p.abn-cv-four-designation:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #28939a;
+    top: 3px;
+    left: -40px;
+}
+
+.abn-cv-four-padd-wrap {
+    padding: 40px 105px 0 100px;
+}
+
+.abn-cv-four-contact-about {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #28939a;
+}
+
+.abn-cv-four-contact {
+    min-width: 400px;
+}
+
+
+
+h5.abn-cv-four-section-title,
+h5.abn-cv-four-widget-title {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-left: 35px;
+}
+
+.abn-cv-four-widget-content {
+    position: relative;
+    padding-left: 35px;
+}
+
+.abn-cv-four-section-text p:before,
+.abn-cv-four-widget-content:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 0px;
+}
+
+.abn-cv-four-icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.abn-cv-four-icon-text:last-child {
+    margin: 0;
+}
+
+.abn-cv-four-widget-icon {
+    width: 30px;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+}
+
+aside .abn-cv-four-widget-icon:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: -39px;
+    border-radius: 50%;
+}
+
+.abn-cv-four-widget-icon i {
+    color: #28939a;
+    font-size: 28px;
+}
+
+.abn-cv-four-widget-text {}
+
+.abn-cv-four-widget-text span {
+    display: block;
+}
+
+section.abn-cv-four-about-me {
+    width: 100%;
+}
+
+.abn-cv-four-section-content {}
+
+.abn-cv-four-section-text {}
+
+.abn-cv-four-section-text p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23px;
+    position: relative;
+    padding-left: 35px;
+    text-align: justify;
+}
+
+.abn-cv-four-padd-wrap aside {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.abn-cv-four-widget {
+    width: 380px;
+    border-bottom: 2px solid #28939a;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+aside h5.abn-cv-four-widget-title {
+    position: relative;
+}
+
+aside h5.abn-cv-four-widget-title:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 2px;
+    height: 100%;
+    top: 25px;
+    left: 0px;
+}
+
+aside h5.abn-cv-four-widget-title:after {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    left: -4px;
+    border-radius: 50%;
+}
+
+.abn-cv-four-lang-text {
+    margin-bottom: 8px;
+}
+
+h3.abn-cv-four-lang {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 38px;
+}
+
+h3.abn-cv-four-lang:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: -39px;
+    border-radius: 50%;
+}
+
+span.abn-cv-four-lang-beh {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #28939a;
+}
+
+.abn-cv-four-lang-text:last-child {
+    margin: 0;
+}
+
+.abn-cv-four-skills-set {}
+
+.abn-cv-four-user-skill {
+    margin-bottom: 20px;
+}
+
+.abn-cv-four-user-skill:last-child {
+    margin-bottom: 0px;
+}
+
+.abn-cv-four-user-skill h4 {
+    position: relative;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.abn-cv-four-user-skill h4:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: -39px;
+    border-radius: 50%;
+}
+
+span.abn-cv-four-skill-line {
+    display: block;
+    width: 335px;
+    height: 15px;
+    background: #e9f3f3;
+    border-radius: 0;
+}
+
+span.abn-cv-four-skill-percentage {
+    display: block;
+    height: 15px;
+    background: #28939a;
+    border-radius: 0;
+}
+
+.abn-cv-four-widget:last-child {
+    border: none;
+}
+
+.abn-cv-four-aside-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3.abn-cv-four-job-title-time {
+    line-height: 26px;
+    padding-left: 35px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+span.abn-cv-four-job-title {
+    font-size: 26px;
+    font-weight: 400;
+    display: block;
+    text-transform: uppercase;
+}
+
+span.abn-cv-four-job-time {
+    font-size: 21px;
+    font-weight: 300;
+    color: #28939a;
+    text-transform: uppercase;
+}
+
+h3.abn-cv-four-job-title-time:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 2px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+h3.abn-cv-four-job-title-time:after {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: -4px;
+    border-radius: 50%;
+}
+
+.abn-cv-four-aside-main main {
+    padding: 0 0 40px 0;
+}
+
+h5.abn-cv-four-section-title {
+    position: relative;
+}
+
+main h5.abn-cv-four-section-title:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 2px;
+    height: 100%;
+    top: 25px;
+    left: 0px;
+}
+
+main h5.abn-cv-four-section-title:after {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    left: -4px;
+    border-radius: 50%;
+}
+
+main .abn-cv-four-section-text p:last-child {
+    padding-bottom: 30px;
+}
+
+.abn-cv-four-section-content:last-child .abn-cv-four-section-text p:last-child {
+    padding-bottom: 0;
+}
+
+.abn-cv-four-job-exp {
+    border-bottom: 2px solid #28939a;
+    padding-bottom: 35px;
+    margin-bottom: 25px;
+}
+
+aside .abn-cv-four-widget-content {
+    padding-bottom: 10px;
+}
+
+main h5.abn-cv-four-widget-title {
+    position: relative;
+}
+
+main h5.abn-cv-four-widget-title:before {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 2px;
+    height: 100%;
+    top: 25px;
+    left: 0px;
+}
+
+main h5.abn-cv-four-widget-title:after {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    left: -4px;
+    border-radius: 50%;
+}
+
+.abn-cv-four-only-text {}
+
+.abn-cv-four-only-text h3 {
+    line-height: 28px;
+    padding-left: 0;
+    position: relative;
+    font-size: 26px;
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
+}
+
+.abn-cv-four-only-text p.abn-cv-four-college-year {
+    font-size: 21px;
+    font-weight: 300;
+    color: #28939a;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.abn-cv-four-only-text p:last-child {
+    padding-bottom: 25px;
+}
+
+.abn-cv-four-only-text h3:after {
+    content: "";
+    position: absolute;
+    background: #28939a;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: -39px;
+    border-radius: 50%;
+}
+
+.abn-cv-four-widget-content:last-child .abn-cv-four-only-text p:last-child {
+    padding-bottom: 0;
+}
+
+
+
